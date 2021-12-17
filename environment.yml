@@ -1,0 +1,11 @@
+name: seq2seq4fin
+channels:
+  - pytorch
+dependencies:
+    - python=3.8.0
+    - numpy>=1.19
+    - scipy=1.6.0
+    - pytorch=1.10
+    - matplotlib>=3.3
+    - pandas
+    - ipykernel
