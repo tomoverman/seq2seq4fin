@@ -23,7 +23,7 @@ class processData():
         X_train=samples[0:num_train]
         X_test=samples[num_train:]
 
-        Y_train=samples[0:num_train]
-        Y_test=samples[num_train:]
+        Y_train=labels[0:num_train]
+        Y_test=labels[num_train:]
 
         return X_train, Y_train, X_test, Y_test
